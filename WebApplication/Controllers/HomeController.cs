@@ -39,8 +39,8 @@ namespace WebApplication.Controllers
 			movimentoManual.NumLancamento = modeloDeTela.NumLancamento;
 			movimentoManual.CodProduto = modeloDeTela.CodProduto;
 			movimentoManual.CodCosif = modeloDeTela.Descricao;
-			movimentoManual.DataMovimento = modeloDeTela.DataMovimento;
-			movimentoManual.CodUsuario = modeloDeTela.CodUsuario;
+			movimentoManual.DataMovimento = DateTime.Now.Date;
+			movimentoManual.CodUsuario = "TESTE";
 			movimentoManual.Valor = modeloDeTela.Valor;
 			return movimentoManual;
 		}
