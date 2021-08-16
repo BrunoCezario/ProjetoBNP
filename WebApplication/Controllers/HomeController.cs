@@ -20,7 +20,6 @@ namespace WebApplication.Controllers
 			return View();
 		}
 
-
 		public ActionResult Cadastrar(MovimentoManualModel modeloDeTela)
 		{
 			MovimentoManual movimentoManual = ConversorDaEntidade(modeloDeTela);
